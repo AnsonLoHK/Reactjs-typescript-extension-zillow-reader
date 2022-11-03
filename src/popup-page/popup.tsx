@@ -1,11 +1,10 @@
-import * as React from "react";
-import ReactDOM from "react-dom";
+import React, { FC } from "react";
+import { render } from "react-dom";
 
-export interface IProps {}
+interface IProps {}
 
-export function Popup(props: IProps) {
-  return <div></div>;
-}
+export const Popup: FC<IProps> = () => {
+  return <div>123</div>;
+};
 
-const rootElement = document.getElementById("popup");
-ReactDOM.render(<Popup />, rootElement);
+render(<Popup />, document.getElementById("popup"));

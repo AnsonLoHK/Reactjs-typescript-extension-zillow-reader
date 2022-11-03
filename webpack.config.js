@@ -11,7 +11,7 @@ module.exports = {
     clean: true,
   },
   module: {
-    rules: [{ test: /\.ts$/, exclude: /node_modules/, use: ["ts-loader"] }],
+    rules: [{ test: /\.ts(x?)$/, exclude: /node_modules/, use: ["ts-loader"] }],
   },
 
   //   devtool: "inline-source-map",
