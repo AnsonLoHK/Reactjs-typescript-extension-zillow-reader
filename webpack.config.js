@@ -4,24 +4,24 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    index: "./src/index.js",
-    print: "./src/print.js",
+    popup: "./src/popup-page/popup.tsx",
   },
-  devtool: "inline-source-map",
-  devServer: {
-    static: "./dist",
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: "Development",
-    }),
-  ],
   output: {
-    filename: "[name].bundle.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
-  optimization: {
-    runtimeChunk: "single",
-  },
+  //   devtool: "inline-source-map",
+  //   devServer: {
+  //     static: "./dist",
+  //   },
+  //   plugins: [
+  //     new HtmlWebpackPlugin({
+  //       title: "Development",
+  //     }),
+  //   ],
+
+  //   optimization: {
+  //     runtimeChunk: "single",
+  //   },
 };
