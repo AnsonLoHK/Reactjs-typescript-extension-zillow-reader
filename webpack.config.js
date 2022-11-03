@@ -1,5 +1,4 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -11,6 +10,10 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+  module: {
+    rules: [{ test: /\.ts$/, exclude: /node_modules/, use: ["ts-loader"] }],
+  },
+
   //   devtool: "inline-source-map",
   //   devServer: {
   //     static: "./dist",
