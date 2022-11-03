@@ -42,7 +42,7 @@ module.exports = {
         },
       ],
     }),
-    // new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(),
   ],
 
   //   devtool: "inline-source-map",
