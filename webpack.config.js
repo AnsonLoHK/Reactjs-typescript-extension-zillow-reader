@@ -10,6 +10,7 @@ module.exports = {
   },
   output: {
     filename: "[name].js",
+    // 当前工作路径是在dist
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
@@ -27,28 +28,21 @@ module.exports = {
       // chunks name 跟 entry popup是同樣的名稱
       chunks: ["popup"],
     }),
+    new CopyPlugin({
+      patterns: [
+        // 從项目目录/public文件夹内
+        // 放到output文件夹下，也就是当前工作文件夹dist内
+        {
+          from: path.resolve(__dirname, "./public"),
+          to: "./",
+          // globOptions: {
+          //   dot: true,
+          //   gitignore: true,
+          // },
+        },
+      ],
+    }),
     // new CleanWebpackPlugin(),
-    // new CopyPlugin({
-    //   patterns: [
-    //     {
-    //       from: "source",
-    //       to: "dest",
-    //       globOptions: {
-    //         dot: true,
-    //         gitignore: true,
-    //       },
-    //     },
-    //     { from: "other", to: "public" },
-    //     {
-    //       from: path.resolve(__dirname, "../public1111"), //当前工作路径是在dist文件夹内，搜易这里的from就是项目目录/public文件夹内。（dist和public是同级的）
-    //       to: "./", //放到output文件夹下，也就是当前工作文件夹dist内
-    //       globOptions: {
-    //         dot: true,
-    //         gitignore: true,
-    //       },
-    //     },
-    //   ],
-    // }),
   ],
 
   //   devtool: "inline-source-map",
