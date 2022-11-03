@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "webpack": "^5.74.0"
   },
   "name": "typescript-build-extension",
   "version": "1.0.0",
