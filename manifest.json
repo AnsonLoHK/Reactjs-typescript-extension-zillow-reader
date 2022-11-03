@@ -6,5 +6,14 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": "hello_extensions.png" // 你的 icon 檔案名稱
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens popup.html"
+    }
   }
 }

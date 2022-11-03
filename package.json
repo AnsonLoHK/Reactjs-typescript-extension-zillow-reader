@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "typescript-build-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnsonLoHK/Reactjs-typescript-extension-zillow-reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnsonLoHK/Reactjs-typescript-extension-zillow-reader/issues"
+  },
+  "homepage": "https://github.com/AnsonLoHK/Reactjs-typescript-extension-zillow-reader#readme",
+  "description": ""
+}
