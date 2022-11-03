@@ -1,0 +1,10 @@
+{
+  "name": "Zillow Reader",
+  "description": "Read Zillow Data",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "hello_extensions.png" // 你的 icon 檔案名稱
+  }
+}
