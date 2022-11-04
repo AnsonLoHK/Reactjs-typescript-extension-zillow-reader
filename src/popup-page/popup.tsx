@@ -4,7 +4,7 @@ import { render } from "react-dom";
 interface IProps {}
 
 export const Popup: FC<IProps> = () => {
-  return <div>可以正常運作extension囉</div>;
+  return <div>11/4</div>;
 };
 
 render(<Popup />, document.getElementById("popup"));
