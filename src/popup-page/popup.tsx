@@ -4,7 +4,7 @@ import { render } from "react-dom";
 interface IProps {}
 
 export const Popup: FC<IProps> = () => {
-  return <div>11/4</div>;
+  return <div>11/7</div>;
 };
 
 render(<Popup />, document.getElementById("popup"));
