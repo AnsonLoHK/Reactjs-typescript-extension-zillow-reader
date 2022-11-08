@@ -16,4 +16,12 @@ export const printFormat = (title: string, param: string | number): void => {
 export const fetchData = (url: string): Promise<string> =>
   Promise.resolve(`Data from ${url}`);
 
-// ********************** 傳多個字串陣列當參數
+// ********************** 傳多個字串陣列當參數 此func無法正常運行
+export const introduce = (salutation: string, ...names: string[]): string => {
+  return `${salutation} ${names.join("")}`;
+};
+
+// ********************** obj 傳入 str 傳出
+export const getName = (user: { first: string; last: string }): string => {
+  return `${user?.first ?? "first"} ${user?.last ?? "last"}`;
+};
