@@ -23,5 +23,5 @@ export const introduce = (salutation: string, ...names: string[]): string => {
 
 // ********************** obj 傳入 str 傳出
 export const getName = (user: { first: string; last: string }): string => {
-  return `${user?.first ?? "first"} ${user?.last ?? "last"}`;
+  return `${user?.first ?? "FIRST"} ${user?.last ?? "LAST"}`;
 };
