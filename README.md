@@ -19,3 +19,10 @@ npm i -g ts-node@8.5.4
 
 11/03
 已經安置好相關 webpack 套件，元件內容正常顯示在 extenstion 上
+
+# 其他不相關
+
+#### 11/09
+
+book-redux
+common-redux
