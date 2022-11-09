@@ -22,3 +22,14 @@ function sayHi(callback: CallbackOneParam<string>) {
 }
 
 sayHi(greeter);
+
+// TYPE
+type MyHandler = (message: string) => void;
+
+// numbers 陣列中存放數字 , mutate is callback func and pass number as parameter then teturn a number
+export function arrayMutate(numbers: number[], mutate: (v: number) => number) {
+  return numbers.map(mutate);
+}
+
+//  印出來
+console.log(arrayMutate([1, 2, 3], (v) => v * 10));
