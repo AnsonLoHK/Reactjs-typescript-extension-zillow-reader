@@ -22,7 +22,7 @@ npm i -g ts-node@8.5.4
 
 # 其他不相關
 
-#### 11/09
+#### 11/09 React-Redux-Typescript and Modular Design.
 
 book-redux
 common-redux
