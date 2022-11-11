@@ -4,7 +4,7 @@ Learn Chrome Extension, React, Typescript, Webpack all togethers
 
 ## Chrome Extension
 
-![暫時的Extension Logo.](/public/hello_extensions.png "This is a sample image.")
+![暫時的Extension Logo.](/public/logo_Readme.png "This is a sample image.")
 
 ## 主要技術
 
