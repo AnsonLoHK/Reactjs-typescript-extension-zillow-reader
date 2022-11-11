@@ -37,6 +37,14 @@ function parseCoordinate(arg1: unknown, arg2?: unknown): Coordinate {
   return coord;
 }
 
+console.log(parseCoordinate(19, 43));
+console.log(
+  parseCoordinate({
+    x: 3432,
+    y: 43,
+  })
+);
+
 // ⛔️ Error: This overload signature is not
 // compatible with its implementation signature
 function example(str: string): void;

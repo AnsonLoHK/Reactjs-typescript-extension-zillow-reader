@@ -10,10 +10,18 @@ Learn Chrome Extension, React, Typescript, Webpack all togethers
 
 **React** , **Typescript**, **Webpack**, **React**
 
-## 其他不相關
+## Typescript 基礎回顧
 
 | 主題            |            檔案位置             |
 | --------------- | :-----------------------------: |
 | Overloading     |       parseCoordinate.ts        |
 | Modular Design. | book-redux.ts / common-redux.ts |
 |                 |                                 |
+
+## Typescript 常用指令
+
+| 指令                                    |            說明            |
+| --------------------------------------- | :------------------------: |
+| using `npx ts-node parseCoordinate.ts`. | 直接執行 TypeScript 指令檔 |
+|                                         |                            |
+|                                         |                            |
