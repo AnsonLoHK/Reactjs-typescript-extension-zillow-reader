@@ -2,39 +2,18 @@
 
 Learn Chrome Extension, React, Typescript, Webpack all togethers
 
-#### 11/07
+## Chrome Extension
 
-此版本才能正常運行 functions.ts 跟 functions-test.ts
+![暫時的Extension Logo.](/public/hello_extensions.png "This is a sample image.")
 
-```
-    "ts-node": "10.8.1",
-    "typescript": "^4.8.4",
-```
+## 主要技術
 
-11/04
+**React** , **Typescript**, **Webpack**, **React**
 
-降版本:
-ts-node : 无法将“ts-node”项识别为 cmdlet
-npm i -g ts-node@8.5.4
+## 其他不相關
 
-11/03
-已經安置好相關 webpack 套件，元件內容正常顯示在 extenstion 上
-
-# 其他不相關
-
-## Tables
-
-| 主題            |         檔案位置          |
-| --------------- | :-----------------------: |
-| Overloading     |    parseCoordinate.ts     |
-| Modular Design. | book-redux / common-redux |
-|                 |                           |
-
-#### 11/10 Function Overloading in Typescript
-
-parseCoordinate.ts
-
-#### 11/09 React-Redux-Typescript and Modular Design.
-
-book-redux
-common-redux
+| 主題            |            檔案位置             |
+| --------------- | :-----------------------------: |
+| Overloading     |       parseCoordinate.ts        |
+| Modular Design. | book-redux.ts / common-redux.ts |
+|                 |                                 |
