@@ -29,3 +29,6 @@ Learn Chrome Extension, React, Typescript, Webpack all togethers
 
 參考：
 https://www.youtube.com/watch?v=h-OP0dtkyI8
+
+進度：
+36:25

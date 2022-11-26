@@ -10,6 +10,8 @@ module.exports = {
   mode: "development",
   entry: {
     popup: "./src/popup-page/popup.tsx",
+    contentscript: "./src/content-script.ts",
+
   },
   output: {
     filename: "[name].js",
