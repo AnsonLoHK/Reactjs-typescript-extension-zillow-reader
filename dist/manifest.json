@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "hello_extensions.png" // 你的 icon 檔案名稱
+    "default_icon": "hello_extensions.png"
   },
   "commands": {
     "_execute_action": {
@@ -18,9 +18,8 @@
   },
   "content_scripts": [
     {
-      "matches": [ "<all_urls>" ],
-      "js": [ "content-script.js" ]
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"]
     }
-]
-
+  ]
 }

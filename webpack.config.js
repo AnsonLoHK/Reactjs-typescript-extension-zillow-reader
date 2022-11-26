@@ -2,16 +2,13 @@ const path = require("path");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
-
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   mode: "development",
   entry: {
     popup: "./src/popup-page/popup.tsx",
-    contentscript: "./src/content-script.ts",
-
+    contentscript: "./src/contentscript.ts",
   },
   output: {
     filename: "[name].js",
@@ -49,7 +46,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-  devtool: 'cheap-module-source-map',
+  devtool: "cheap-module-source-map",
   //   devServer: {
   //     static: "./dist",
   //   },
