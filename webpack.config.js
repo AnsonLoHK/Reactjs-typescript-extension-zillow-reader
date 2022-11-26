@@ -1,10 +1,13 @@
 const path = require("path");
+
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+
+
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: {
     popup: "./src/popup-page/popup.tsx",
   },
@@ -44,8 +47,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-
-  //   devtool: "inline-source-map",
+  devtool: 'cheap-module-source-map',
   //   devServer: {
   //     static: "./dist",
   //   },

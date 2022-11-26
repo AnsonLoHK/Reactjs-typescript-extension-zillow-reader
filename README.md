@@ -25,3 +25,7 @@ Learn Chrome Extension, React, Typescript, Webpack all togethers
 | using `npx ts-node parseCoordinate.ts`. | 直接執行 TypeScript 指令檔 |
 |                                         |                            |
 |                                         |                            |
+
+
+參考：
+https://www.youtube.com/watch?v=h-OP0dtkyI8
